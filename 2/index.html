@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <title></title>
+
+      <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:900" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Nunito:900" rel="stylesheet">
+      <!-- Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Raleway:100,600,800,900" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+
+      <!-- Styles -->
+      <style>
+         @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Gugi|Iceland|Kranky|Londrina+Outline|Love+Ya+Like+A+Sister|Megrim|Metamorphous|Press+Start+2P|Raleway+Dots|Squada+One');
+
+         html, body {
+            /*background-color: #e9c6af49;*/
+            background-color: #e9c6af29;
+            color: #636b6f;
+            font-family: 'Iceland', sans-serif;
+            margin: 0;
+            padding: 0;
+         }
+
+         .title {
+            font-size: 6em;
+            font-weight: 200;
+            color: #000;
+         }
+
+         .app {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+         }
+
+         .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+         }
+
+         .portraits__container {
+            margin-bottom: -10px;
+            overflow-y: hidden;
+         }
+
+         .me {
+            display: flex;
+         }
+
+         .not-me {
+            display: none;
+         }
+
+         .portrait__image {
+            height: 250px;
+            display: block;
+         }
+         </style>
+      </head>
+   <body>
+      <div class="app">
+         <div class="content">
+            <div class="title__container">
+               <h1 class="title">
+                  <!-- RB  <br> -->
+                  <!-- Robin Bekkevold <br>
+                  DisasterSystem <br>
+                  disastersystem -->
+               </h1>
+            </div>
+
+            <div class="portraits__container">
+               <div class="portrait__container me">
+                  <img
+                     src="images/face.svg"
+                     class="portrait__image"
+                  />
+                  <img
+                     src="images/face-colour.svg"
+                     class="portrait__image"
+                  />
+                  <img
+                     src="images/face-colour-shifted.svg"
+                     class="portrait__image"
+                  />
+               </div>
+
+               <div class="portrait__container not-me">
+                  <img
+                     src="images/no-face-zombie.jpg"
+                     class="portrait__image"
+                  />
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <script>
+         /** Add event listeners for toggeling between images when moused over */
+
+         const me = document.querySelector('.me')
+         const notMe = document.querySelector('.not-me')
+
+         me.addEventListener('mouseover', (elem) => {
+            // notMe.style.display = 'block'
+            // me.style.display = 'none'
+         })
+
+         notMe.addEventListener('mouseleave', (elem) => {
+            // notMe.style.display = 'none'
+            // me.style.display = 'block'
+         })
+      </script>
+   </body>
+</html>
