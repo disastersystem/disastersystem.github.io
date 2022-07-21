@@ -1,0 +1,58 @@
+import{S as G,i as R,s as K,w as B,x as T,y as j,q as E,o as D,B as S,e as y,k as F,t as U,N as X,c as $,d as l,m as M,a as g,h as Z,b as r,f as ee,J as m,g as k,p as te,a7 as ae,a8 as se,aa as ne,n as re,a9 as oe,E as ie,F as W,G as O}from"../../chunks/index-22cdd14c.js";import{f as L}from"../../chunks/index-0c289c09.js";import{D as le,a as ce,T as ue,b as pe}from"../../chunks/TransitionRoot-cb159723.js";import{B as de}from"../../chunks/Breadcrumbs-5a85e78e.js";import"../../chunks/index-ab270473.js";function Q(p,e,a){const t=p.slice();return t[1]=e[a].question,t[2]=e[a].answer,t}function fe(p){let e,a;return{c(){e=W("svg"),a=W("path"),this.h()},l(t){e=O(t,"svg",{class:!0,xmlns:!0,viewBox:!0,fill:!0,"aria-hidden":!0});var s=g(e);a=O(s,"path",{"fill-rule":!0,d:!0,"clip-rule":!0}),g(a).forEach(l),s.forEach(l),this.h()},h(){r(a,"fill-rule","evenodd"),r(a,"d","M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"),r(a,"clip-rule","evenodd"),r(e,"class","h-5 w-5"),r(e,"xmlns","http://www.w3.org/2000/svg"),r(e,"viewBox","0 0 20 20"),r(e,"fill","currentColor"),r(e,"aria-hidden","true")},m(t,s){k(t,e,s),m(e,a)},d(t){t&&l(e)}}}function he(p){let e,a;return{c(){e=W("svg"),a=W("path"),this.h()},l(t){e=O(t,"svg",{xmlns:!0,class:!0,fill:!0,viewBox:!0,stroke:!0,"stroke-width":!0,"aria-hidden":!0});var s=g(e);a=O(s,"path",{"stroke-linecap":!0,"stroke-linejoin":!0,d:!0}),g(a).forEach(l),s.forEach(l),this.h()},h(){r(a,"stroke-linecap","round"),r(a,"stroke-linejoin","round"),r(a,"d","M5 15l7-7 7 7"),r(e,"xmlns","http://www.w3.org/2000/svg"),r(e,"class","h-5 w-5"),r(e,"fill","none"),r(e,"viewBox","0 0 24 24"),r(e,"stroke","currentColor"),r(e,"stroke-width","2"),r(e,"aria-hidden","true")},m(t,s){k(t,e,s),m(e,a)},d(t){t&&l(e)}}}function me(p){let e,a,t=p[1]+"",s,i,n;function d(v,_){return v[5]?he:fe}let w=d(p),f=w(p);return{c(){e=y("div"),a=y("div"),s=F(),i=y("div"),n=y("span"),f.c(),this.h()},l(v){e=$(v,"DIV",{class:!0});var _=g(e);a=$(_,"DIV",{class:!0});var b=g(a);b.forEach(l),s=M(_),i=$(_,"DIV",{});var I=g(i);n=$(I,"SPAN",{class:!0});var x=g(n);f.l(x),x.forEach(l),I.forEach(l),_.forEach(l),this.h()},h(){r(a,"class","font-bold text-gray-900 text-left"),r(n,"class","ml-6 flex items-center"),r(e,"class","flex justify-between p-4 border-t border-grey-700")},m(v,_){k(v,e,_),m(e,a),a.innerHTML=t,m(e,s),m(e,i),m(i,n),f.m(n,null)},p(v,_){w!==(w=d(v))&&(f.d(1),f=w(v),f&&(f.c(),f.m(n,null)))},d(v){v&&l(e),f.d()}}}function ge(p){let e,a=p[2]+"";return{c(){e=y("div"),this.h()},l(t){e=$(t,"DIV",{class:!0});var s=g(e);s.forEach(l),this.h()},h(){r(e,"class","px-4 pt-2 pb-10")},m(t,s){k(t,e,s),e.innerHTML=a},p:ie,d(t){t&&l(e)}}}function ve(p){let e,a;return e=new pe({props:{$$slots:{default:[ge]},$$scope:{ctx:p}}}),{c(){B(e.$$.fragment)},l(t){T(e.$$.fragment,t)},m(t,s){j(e,t,s),a=!0},p(t,s){const i={};s&64&&(i.$$scope={dirty:s,ctx:t}),e.$set(i)},i(t){a||(E(e.$$.fragment,t),a=!0)},o(t){D(e.$$.fragment,t),a=!1},d(t){S(e,t)}}}function _e(p){let e,a,t,s,i;return e=new ce({props:{class:"w-full",$$slots:{default:[me]},$$scope:{ctx:p}}}),t=new ue({props:{enter:"transition ease-in-out duration-300 transform",enterFrom:"translate-x-full",enterTo:"translate-x-0",leave:"transition ease-in-out duration-300 transform",leaveFrom:"translate-x-0",leaveTo:"translate-x-full",$$slots:{default:[ve]},$$scope:{ctx:p}}}),{c(){B(e.$$.fragment),a=F(),B(t.$$.fragment),s=F()},l(n){T(e.$$.fragment,n),a=M(n),T(t.$$.fragment,n),s=M(n)},m(n,d){j(e,n,d),k(n,a,d),j(t,n,d),k(n,s,d),i=!0},p(n,d){const w={};d&96&&(w.$$scope={dirty:d,ctx:n}),e.$set(w);const f={};d&64&&(f.$$scope={dirty:d,ctx:n}),t.$set(f)},i(n){i||(E(e.$$.fragment,n),E(t.$$.fragment,n),i=!0)},o(n){D(e.$$.fragment,n),D(t.$$.fragment,n),i=!1},d(n){S(e,n),n&&l(a),S(t,n),n&&l(s)}}}function Y(p){let e,a;return e=new le({props:{$$slots:{default:[_e,({open:t})=>({5:t}),({open:t})=>t?32:0]},$$scope:{ctx:p}}}),{c(){B(e.$$.fragment)},l(t){T(e.$$.fragment,t)},m(t,s){j(e,t,s),a=!0},p(t,s){const i={};s&96&&(i.$$scope={dirty:s,ctx:t}),e.$set(i)},i(t){a||(E(e.$$.fragment,t),a=!0)},o(t){D(e.$$.fragment,t),a=!1},d(t){S(e,t)}}}function ye(p){let e,a,t,s,i,n,d,w,f,v,_,b,I,x,V;d=new de({props:{pages:[["/","Home"],["/application/faq","FAQ"]]}});let C=p[0],c=[];for(let o=0;o<C.length;o+=1)c[o]=Y(Q(p,C,o));const z=o=>D(c[o],1,1,()=>{c[o]=null});return{c(){e=y("meta"),a=F(),t=y("main"),s=y("div"),i=y("div"),n=y("div"),B(d.$$.fragment),w=F(),f=y("h1"),v=U("FAQ"),_=F(),b=y("div");for(let o=0;o<c.length;o+=1)c[o].c();this.h()},l(o){const h=X('[data-svelte="svelte-15j1wgt"]',document.head);e=$(h,"META",{name:!0,content:!0}),h.forEach(l),a=M(o),t=$(o,"MAIN",{class:!0});var u=g(t);s=$(u,"DIV",{class:!0});var A=g(s);i=$(A,"DIV",{class:!0,style:!0});var q=g(i);n=$(q,"DIV",{class:!0});var H=g(n);T(d.$$.fragment,H),H.forEach(l),w=M(q),f=$(q,"H1",{class:!0});var N=g(f);v=Z(N,"FAQ"),N.forEach(l),_=M(q),b=$(q,"DIV",{class:!0});var J=g(b);for(let P=0;P<c.length;P+=1)c[P].l(J);J.forEach(l),q.forEach(l),A.forEach(l),u.forEach(l),this.h()},h(){document.title="FAQ - COSI",r(e,"name","description"),r(e,"content",""),r(n,"class","ml-4"),r(f,"class","cosi-title-1 pl-4"),r(b,"class","mt-20"),r(i,"class","mt-40 mb-40"),ee(i,"max-width","750px"),r(s,"class","flex justify-center"),r(t,"class","svelte-25in92")},m(o,h){m(document.head,e),k(o,a,h),k(o,t,h),m(t,s),m(s,i),m(i,n),j(d,n,null),m(i,w),m(i,f),m(f,v),m(i,_),m(i,b);for(let u=0;u<c.length;u+=1)c[u].m(b,null);V=!0},p(o,[h]){if(h&33){C=o[0];let u;for(u=0;u<C.length;u+=1){const A=Q(o,C,u);c[u]?(c[u].p(A,h),E(c[u],1)):(c[u]=Y(A),c[u].c(),E(c[u],1),c[u].m(b,null))}for(re(),u=C.length;u<c.length;u+=1)z(u);te()}},i(o){if(!V){E(d.$$.fragment,o);for(let h=0;h<C.length;h+=1)E(c[h]);ae(()=>{x&&x.end(1),I=oe(t,L,{y:50,duration:500,delay:500}),I.start()}),V=!0}},o(o){D(d.$$.fragment,o),c=c.filter(Boolean);for(let h=0;h<c.length;h+=1)D(c[h]);I&&I.invalidate(),x=se(t,L,{duration:500}),V=!1},d(o){l(e),o&&l(a),o&&l(t),S(d),ne(c,o),o&&x&&x.end()}}}function $e(p){return[[{question:"Do I need to submit a separate application to be considered for scholarships?",answer:`
+                <p class="cosi-p">
+                    No. Your online application to COSI degrees will be used to award scholarships managed by the Consortium as well
+                    (Erasmus+ EMJMD scholarships, Consortium scholarships, Foundation Jean Monnet scholarships), and,
+                    if you're selected, to national scholarships programmes during the period of study. Scholarships
+                    attribution will be communicated at the same time as the outcome of the selection. Time will be given
+                    to applicants to confirm / choose between degrees in the light of the scholarship award.
+                </p>
+                <p class="cosi-p">
+                    However, there is a number of scholarships programmes (bilateral, multilateral) you may be eligible for. We encourage you to look for such opportunities, that can complement the financial support you'll may received from us. We'll provide any needed supporting documentation but application to such programmes are your own responsibility. Application process and supporting documentation differs between programmes.
+                </p>
+            `},{question:"I don't have the financial ability to finance this period of study. What are my options?",answer:`
+                <p class="cosi-p">
+                    Applying to COSI means applying to scholarships managed by the Consortium as well.
+                    Erasmus+ EMJMD, is a very generous scholarship that can virtually finance any expenses (including
+                    costs of living and travel expenses) during your 2-years Master's Degree enrollment. Consortium scholarships
+                    reduce considerably the Participation Costs. Other programmes are available to scientific students with
+                    outstanding academic background. Please do apply; you'll be informed of scholarship award at the same
+                    time as the selection outcome and given time to decide if you wish to enroll given the level of financial
+                    support we offer.
+                </p>
+            `},{question:'I cannot produce, at the time of the online application, results of an internationally recognized English test <span class="text-sm">(</span>TOEFL, TOEIC, ...<span class="text-sm">)</span>. Does that make me ineligible?',answer:`
+                <p class="cosi-p">
+                    You need to justify your English level at the application deadline. We cannot guarantee that without a
+                    justification of English proficiency you can pass the administrative check.
+                <p>
+                <p class="cosi-p">
+                    Please, see <a class="external" href="https://internacional.ugr.es/pages/politica-linguistica/tablasdecertificadosaceptadosporlaugr" target="_self">this page</a>
+                    for alternative tests.
+                </p>
+            `},{question:'Am I eligible with a BS in textile industry <span class="text-sm">/</span> Electronics Engineering <span class="text-sm">/</span> Chemistry...?',answer:`
+                <p class="cosi-p">
+                    Please check carefully <a class="external" href="/application/eligibility-criteria" target="_self">this section</a> for academic background requirements.
+                <p>
+                <p class="cosi-p">
+                    We don't specifically target a given major at bachelor level, but rather applicants with a solid academic
+                    background in the general fields of physics and/or mathematics and/or computer science. It really
+                    depends on bachelor's curriculum.
+                </p>
+            `},{question:"Is a background in colour science necessary to be eligible?",answer:`
+                <p class="cosi-p">
+                    No, we don't required a background in Colour science, as this is the aim of the Programme to educate student to this interdisciplinary field.
+                <p>
+            `},{question:'When I login to my account, my application appears as "pending". What should I do?',answer:`
+                <p class="cosi-p">
+                    Once you've succesfully submitted your application, a pop-up message indicate that your application has
+                    been saved successfully (in green on the upper-right of the screen) and your application appears as
+                    "pending" in the left menu. As long as you've received a automatic conformation email, this means your
+                    application will be considered by the selection committee.
+                <p>
+            `},{question:"French visa: Do I need to apply to Campus France CEF in addition to the online application?",answer:`
+                <p class="cosi-p">
+                    You should first apply online to the Master's Degree. If you're selected, we'll guide you through the
+                    Campus France application, if applicable. We're in direct contact with Campus France offices and
+                    work toward simplifying as much as possible the CEF procedure for selected students.
+                    For more info on the CEF process and countries concerned, please visit these pages <a class="external" href="/france" target="_self">france</a>, <a class="external" href="/spain" target="_self">spain</a>, <a class="external" href="/norway" target="_self">norway</a>, <a class="external" href="/finland" target="_self">finland</a>.
+                <p>
+            `}]]}class Ie extends G{constructor(e){super(),R(this,e,$e,ye,K,{})}}export{Ie as default};
