@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "immutable/start-3bb77e7e.js",
+    "file": "immutable/start-fd595ff0.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -278,7 +278,7 @@
     ]
   },
   "src/routes/finland.svelte": {
-    "file": "immutable/pages/finland.svelte-9ba86220.js",
+    "file": "immutable/pages/finland.svelte-64303abd.js",
     "src": "src/routes/finland.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -289,7 +289,7 @@
     ]
   },
   "src/routes/france.svelte": {
-    "file": "immutable/pages/france.svelte-5ff0eccf.js",
+    "file": "immutable/pages/france.svelte-7c0245e3.js",
     "src": "src/routes/france.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -323,7 +323,7 @@
       "_index-93a2a006.js"
     ],
     "css": [
-      "immutable/assets/pages/index.svelte-62334ba2.css"
+      "immutable/assets/pages/index1.svelte-f483691c.css"
     ]
   },
   "src/routes/index1.svelte": {
@@ -336,7 +336,7 @@
       "_index-3d7588ea.js"
     ],
     "css": [
-      "immutable/assets/pages/index.svelte-62334ba2.css"
+      "immutable/assets/pages/index1.svelte-f483691c.css"
     ]
   },
   "src/routes/insurance.svelte": {
@@ -436,7 +436,7 @@
     ]
   },
   "src/routes/norway.svelte": {
-    "file": "immutable/pages/norway.svelte-da6c005a.js",
+    "file": "immutable/pages/norway.svelte-75799ae6.js",
     "src": "src/routes/norway.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -556,7 +556,7 @@
     ]
   },
   "src/routes/spain.svelte": {
-    "file": "immutable/pages/spain.svelte-d19f6617.js",
+    "file": "immutable/pages/spain.svelte-f5806360.js",
     "src": "src/routes/spain.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
