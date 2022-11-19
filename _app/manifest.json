@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "immutable/start-87817a55.js",
+    "file": "immutable/start-40f8012a.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -51,7 +51,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "immutable/pages/__layout.svelte-0daaf500.js",
+    "file": "immutable/pages/__layout.svelte-f58aaed2.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -61,7 +61,7 @@
       "_index-0335f195.js"
     ],
     "css": [
-      "immutable/assets/pages/__layout.svelte-e9585c4d.css"
+      "immutable/assets/pages/__layout.svelte-11828b0c.css"
     ]
   },
   "src/routes/__error.svelte": {
@@ -142,7 +142,7 @@
     ]
   },
   "src/routes/application/apply.svelte": {
-    "file": "immutable/pages/application/apply.svelte-657a8c7a.js",
+    "file": "immutable/pages/application/apply.svelte-72fa5272.js",
     "src": "src/routes/application/apply.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -189,7 +189,7 @@
     ]
   },
   "src/routes/awarded-degrees.svelte": {
-    "file": "immutable/pages/awarded-degrees.svelte-83edacea.js",
+    "file": "immutable/pages/awarded-degrees.svelte-55804f0a.js",
     "src": "src/routes/awarded-degrees.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -230,7 +230,7 @@
     ]
   },
   "src/routes/corporate-relations.svelte": {
-    "file": "immutable/pages/corporate-relations.svelte-5d6b766c.js",
+    "file": "immutable/pages/corporate-relations.svelte-e63ead6e.js",
     "src": "src/routes/corporate-relations.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -245,7 +245,7 @@
     ]
   },
   "src/routes/courses.svelte": {
-    "file": "immutable/pages/courses.svelte-fb39b092.js",
+    "file": "immutable/pages/courses.svelte-0adcf8e5.js",
     "src": "src/routes/courses.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -320,7 +320,7 @@
       "_index-93a2a006.js"
     ],
     "css": [
-      "immutable/assets/pages/index.svelte-62334ba2.css"
+      "immutable/assets/pages/index1.svelte-f483691c.css"
     ]
   },
   "src/routes/index1.svelte": {
@@ -333,7 +333,7 @@
       "_index-3d7588ea.js"
     ],
     "css": [
-      "immutable/assets/pages/index.svelte-62334ba2.css"
+      "immutable/assets/pages/index1.svelte-f483691c.css"
     ]
   },
   "src/routes/insurance.svelte": {
@@ -440,7 +440,7 @@
     ]
   },
   "src/routes/participation-costs.svelte": {
-    "file": "immutable/pages/participation-costs.svelte-8413f662.js",
+    "file": "immutable/pages/participation-costs.svelte-1a0c27ba.js",
     "src": "src/routes/participation-costs.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -481,7 +481,7 @@
     ]
   },
   "src/routes/research.svelte": {
-    "file": "immutable/pages/research.svelte-c0ce7fba.js",
+    "file": "immutable/pages/research.svelte-f84dca30.js",
     "src": "src/routes/research.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -492,7 +492,7 @@
     ]
   },
   "src/routes/scholarship/[id].svelte": {
-    "file": "immutable/pages/scholarship/_id_.svelte-d69cd01a.js",
+    "file": "immutable/pages/scholarship/_id_.svelte-099c02b1.js",
     "src": "src/routes/scholarship/[id].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -503,7 +503,7 @@
     ]
   },
   "src/routes/scholarships-disbursment.svelte": {
-    "file": "immutable/pages/scholarships-disbursment.svelte-5ef52c7e.js",
+    "file": "immutable/pages/scholarships-disbursment.svelte-9b70ba8f.js",
     "src": "src/routes/scholarships-disbursment.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -518,7 +518,7 @@
     ]
   },
   "src/routes/scholarships.svelte": {
-    "file": "immutable/pages/scholarships.svelte-4a3d7ce1.js",
+    "file": "immutable/pages/scholarships.svelte-63be3dab.js",
     "src": "src/routes/scholarships.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
