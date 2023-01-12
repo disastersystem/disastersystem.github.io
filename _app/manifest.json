@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "immutable/start-1fa786b6.js",
+    "file": "immutable/start-9ac2d594.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -142,7 +142,7 @@
     ]
   },
   "src/routes/application/apply.svelte": {
-    "file": "immutable/pages/application/apply.svelte-72fa5272.js",
+    "file": "immutable/pages/application/apply.svelte-7698bb57.js",
     "src": "src/routes/application/apply.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -230,7 +230,7 @@
     ]
   },
   "src/routes/corporate-relations.svelte": {
-    "file": "immutable/pages/corporate-relations.svelte-e63ead6e.js",
+    "file": "immutable/pages/corporate-relations.svelte-4b7d5451.js",
     "src": "src/routes/corporate-relations.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -320,7 +320,7 @@
       "_index-93a2a006.js"
     ],
     "css": [
-      "immutable/assets/pages/index1.svelte-f483691c.css"
+      "immutable/assets/pages/index.svelte-62334ba2.css"
     ]
   },
   "src/routes/index1.svelte": {
@@ -333,7 +333,7 @@
       "_index-3d7588ea.js"
     ],
     "css": [
-      "immutable/assets/pages/index1.svelte-f483691c.css"
+      "immutable/assets/pages/index.svelte-62334ba2.css"
     ]
   },
   "src/routes/insurance.svelte": {
